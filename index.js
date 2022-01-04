@@ -14,6 +14,7 @@ const server = http.createServer((req, res) => {
     // OVERVIEW
     if (pathName === '/' || pathName === '/overview') {
         res.writeHead(200, { 'Content-Type': 'text/html' });
+        const cardsHtml = dataObj.map(el => replaceTemplate(tempCard, el));
         res.end(tempOverview);
 
         // PRODUCT
