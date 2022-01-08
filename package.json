@@ -1,0 +1,19 @@
+{
+  "name": "node-farm",
+  "version": "1.0.0",
+  "description": "A basic node project for learning purpose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tamimehsas/node-farm.git"
+  },
+  "author": "Tamim Ehsas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tamimehsas/node-farm/issues"
+  },
+  "homepage": "https://github.com/tamimehsas/node-farm#readme"
+}
